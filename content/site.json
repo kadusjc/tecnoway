@@ -22,7 +22,7 @@
     "products": "Produtos"
   },
   "brand": {
-    "logo": "/tecnoway/assets/robozinho-tecnoway.jpg",
+    "logo": "/assets/robozinho-tecnoway.jpg",
     "logo_alt": "Mascote Tecnoway",
     "wordmark_prefix": "TECNO",
     "wordmark_suffix": "WAY",
