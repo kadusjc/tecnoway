@@ -3,7 +3,7 @@
 # pelo ID gerado (aparece no template de config.yml que o painel mostra).
 backend:
   name: git-gateway
-  repo: kadusjc/websites
+  repo: kadusjc/tecnoway
   branch: main
   identity_url: https://auth.decapbridge.com/sites/4825adeb-950d-4d68-81c9-85c04c9587e3
   gateway_url: https://gateway.decapbridge.com
@@ -28,8 +28,8 @@ logo:
   src: brand.svg
   show_in_header: false
 
-site_url: https://fcsoftware.com.br/tecnoway/
-display_url: https://fcsoftware.com.br/tecnoway/
+site_url: https://kadusjc.github.io/tecnoway/
+display_url: https://www.tecnoway.com.br/
 media_folder: tecnoway/assets/products
 public_folder: /tecnoway/assets/products
 
