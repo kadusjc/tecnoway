@@ -1,5 +1,13 @@
 {
   "products": [
-   
+    {
+      "active": true,
+      "code": "001",
+      "name": "Bernardo",
+      "category": "Meu filho",
+      "description": "Testando ",
+      "price": 100000000000000,
+      "image": "assets/products/bernardo.jpeg"
+    }
   ]
 }
