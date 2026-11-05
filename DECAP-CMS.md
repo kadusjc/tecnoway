@@ -1,6 +1,6 @@
 # CMS Tecnoway (Decap CMS + DecapBridge)
 
-O site é estático e fica no GitHub Pages (hoje no repositório `kadusjc/websites`, pasta `tecnoway/`, domínio `fcsoftware.com.br`). Todo o conteúdo editável está em dois arquivos JSON e numa pasta de imagens:
+O site é estático e fica no GitHub Pages (hoje no repositório `kadusjc/websites`, pasta `tecnoway/`, domínio `tecnowaysjc.com.br`). Todo o conteúdo editável está em dois arquivos JSON e numa pasta de imagens:
 
 | O quê | Onde |
 |---|---|
@@ -8,7 +8,7 @@ O site é estático e fica no GitHub Pages (hoje no repositório `kadusjc/websit
 | Textos, contatos, links, logo, galeria | `tecnoway/content/site.json` |
 | Imagens enviadas pelo painel | `tecnoway/assets/products/` |
 
-O painel administrativo é o Decap CMS em `https://fcsoftware.com.br/tecnoway/admin/`. O login do cliente (e-mail e senha) é feito pelo **DecapBridge** (`decapbridge.com`), um serviço de autenticação criado para substituir o Netlify Identity. Ele grava no repositório usando um token do GitHub que só você conhece; o cliente **não** precisa de conta GitHub nem de Netlify.
+O painel administrativo é o Decap CMS em `https://tecnowaysjc.com.br/tecnoway/admin/`. O login do cliente (e-mail e senha) é feito pelo **DecapBridge** (`decapbridge.com`), um serviço de autenticação criado para substituir o Netlify Identity. Ele grava no repositório usando um token do GitHub que só você conhece; o cliente **não** precisa de conta GitHub nem de Netlify.
 
 ## Configuração inicial (você faz uma vez)
 
@@ -20,15 +20,15 @@ O painel administrativo é o Decap CMS em `https://fcsoftware.com.br/tecnoway/ad
    - Git provider: **GitHub**
    - Repository: `kadusjc/websites`
    - Access token: o token do passo 1
-   - Decap CMS login URL: `https://fcsoftware.com.br/tecnoway/admin/index.html`
+   - Decap CMS login URL: `https://tecnowaysjc.com.br/tecnoway/admin/index.html`
    - Auth type: **Classic** (login com e-mail e senha dentro do painel)
 4. **Copiar o SITE_ID.** O DecapBridge mostra um template de `config.yml`. Copie apenas o ID que aparece em `identity_url: https://auth.decapbridge.com/sites/<ID>` e substitua `SITE_ID` em `tecnoway/admin/config.yml`. O restante do arquivo já está pronto; não copie o template inteiro.
-5. **Publicar.** Faça commit e push. Aguarde o GitHub Pages atualizar e abra `https://fcsoftware.com.br/tecnoway/admin/`.
+5. **Publicar.** Faça commit e push. Aguarde o GitHub Pages atualizar e abra `https://tecnowaysjc.com.br/tecnoway/admin/`.
 6. **Convidar o cliente.** No DecapBridge, aba **Manage collaborators**, informe o e-mail do cliente. Ele recebe um link, define a própria senha e passa a entrar direto pelo `/admin/`. Para remover o acesso, basta excluir o colaborador no mesmo lugar.
 
 ## Como o cliente usa
 
-1. Acessa `https://fcsoftware.com.br/tecnoway/admin/` e entra com e-mail e senha.
+1. Acessa `https://tecnowaysjc.com.br/tecnoway/admin/` e entra com e-mail e senha.
 2. Em **Catálogo > Produtos**, adiciona, edita ou remove peças. O campo **Foto** aceita upload direto do computador ou celular.
 3. Em **Catálogo > Conteúdo do site**, altera textos, telefone, WhatsApp, endereço, links, logo e galeria.
 4. Clica em **Salvar**. A alteração entra no fluxo de aprovação (abaixo).
